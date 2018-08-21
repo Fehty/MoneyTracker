@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_auth_main_background"
+    tools:context="com.fehty.moneytracker.AuthActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_auth_logo_margin_top"
+        android:background="@drawable/logo"
+        android:contentDescription="@string/auth_activity_logo_content_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/authMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_auth_main_text_margin_top"
+        android:fontFamily="sans-serif"
+        android:text="@string/activity_auth_main_text"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/activity_auth_main_text_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="@dimen/activity_auth_sign_in_button_layout_width"
+        android:layout_height="@dimen/activity_auth_sign_in_button_height"
+        android:layout_marginBottom="@dimen/activity_auth_sign_in_button_margin_bottom"
+        android:layout_marginTop="@dimen/activity_auth_sign_in_button_margin_top"
+        android:background="@drawable/g_plus_button"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/authMainText" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_intro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_pattern"
+    android:orientation="vertical"
+    tools:context="com.fehty.moneytracker.ItemAdd.ItemAddActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/itemAddToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:background="@android:color/white"
+        android:elevation="@dimen/activity_item_add_elevation_of_adding_the_item"
+        android:orientation="horizontal"
+        tools:targetApi="lollipop">
+
+        <EditText
+            android:id="@+id/plainNameOfGood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/name_of_good_margin_start"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/item_add_hint_name_of_good"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textSize="@dimen/name_of_good_text_size" />
+
+        <EditText
+            android:id="@+id/plainPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.5"
+            android:background="@null"
+            android:gravity="right"
+            android:hint="@string/item_add_hint_sum"
+            android:inputType="number"
+            android:maxLines="1"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/textRuble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/item_add_auto_addition_currency"
+            android:textColor="@color/rubleHint" />
+
+        <Button
+            android:id="@+id/buttonAddItem"
+            android:layout_width="@dimen/button_add_width"
+            android:layout_height="@dimen/button_add_height"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/button_add_margin_end"
+            android:layout_marginStart="@dimen/button_add_margin_start"
+            android:background="@drawable/ic_add"
+            android:enabled="false" />
+
+    </LinearLayout>
+
+</LinearLayout>

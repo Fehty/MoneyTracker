@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hello_world_size">20sp</dimen>
+    <dimen name="button_add_width">25dp</dimen>
+    <dimen name="button_add_height">25dp</dimen>
+    <dimen name="button_add_margin_start">48dp</dimen>
+    <dimen name="button_add_margin_end">22dp</dimen>
+    <dimen name="item_height">68dp</dimen>
+    <dimen name="name_of_good_margin_start">23dp</dimen>
+    <dimen name="name_of_good_text_size">20sp</dimen>
+    <dimen name="item_template_margin_bottom">5dp</dimen>
+    <dimen name="item_template_margin_start">10dp</dimen>
+    <dimen name="item_template_margin_end">10dp</dimen>
+    <dimen name="item_template_margin_top">5dp</dimen>
+    <dimen name="item_template_item_name_of_good_width">0dp</dimen>
+    <dimen name="item_template_item_name_of_good_padding_start">16dp</dimen>
+    <dimen name="item_template_item_name_of_good_text_size">20sp</dimen>
+    <dimen name="item_template_item_price_text_size">24sp</dimen>
+    <dimen name="fragment_balance_text_view">24sp</dimen>
+    <dimen name="activity_item_add_elevation_of_adding_the_item">4dp</dimen>
+    <dimen name="activity_main_fab_margin">16dp</dimen>
+    <dimen name="item_text_item_price_width">0dp</dimen>
+    <dimen name="activity_auth_logo_margin_top">46dp</dimen>
+    <dimen name="activity_auth_main_text_margin_top">22dp</dimen>
+    <dimen name="activity_auth_main_text_size">14sp</dimen>
+    <dimen name="activity_auth_sign_in_button_layout_width">201dp</dimen>
+    <dimen name="activity_auth_sign_in_button_height">45dp</dimen>
+    <dimen name="activity_auth_sign_in_button_margin_bottom">25dp</dimen>
+    <dimen name="activity_auth_sign_in_button_margin_top">36dp</dimen>
+    <dimen name="activity_auth_sign_in_button_text_size">23sp</dimen>
+</resources>

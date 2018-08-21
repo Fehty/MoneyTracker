@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#87b5a6</item>
+        <item name="actionModeBackground">@color/colorPrimary</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+</resources>

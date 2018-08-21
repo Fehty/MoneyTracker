@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MoneyTracker</string>
+    <string name="item_add_hint_name_of_good">Название</string>
+    <string name="add_item_main_title">Новая запись</string>
+    <string name="item_add_hint_sum">0</string>
+    <string name="item_add_auto_addition_currency">₽</string>
+    <string name="item_end">%1$d₽</string>
+    <string name="type_incomes">Доходы</string>
+    <string name="type_expenses">Расходы</string>
+    <string name="type_balance">Баланс</string>
+    <string name="first_tab_title">Расходы</string>
+    <string name="second_tab_title">Доходы</string>
+    <string name="third_tab_title">Баланс</string>
+    <string name="balance_fragment_center_text">Balance Fragment</string>
+    <string name="main_screen_title">Учет бюджета</string>
+    <string name="confirmation_dialog_title">Процесс удаления</string>
+    <string name="confirmation_dialog_message">Подтвердить</string>
+    <string name="confirmation_dialog_positive_button">Да</string>
+    <string name="confirmation_dialog_negative_button">Нет</string>
+    <string name="baseUrl">https://verdant-violet.glitch.me/</string>
+    <string name="type_expense">expense</string>
+    <string name="type_income">income</string>
+
+    <string-array name="tab_title">
+        <item>@string/type_expenses</item>
+        <item>@string/type_incomes</item>
+        <item>@string/type_balance</item>
+    </string-array>
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="activity_auth_main_text">Ваш незаменимый помощник \n в управлении бюджетом</string>
+    <string name="activity_auth_log_in_button">Войти</string>
+    <string name="auth_activity_logo_content_description">logo</string>
+
+</resources>

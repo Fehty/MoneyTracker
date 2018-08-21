@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#95c9b8</color>
+    <color name="colorPrimaryDark">#87b5a6</color>
+    <color name="colorAccent">#1ca498</color>
+    <color name="rubleHint">#808080</color>
+    <color name="divider_recycler_view">#808080</color>
+    <color name="colorPrimaryBright">#3ab7ae</color>
+    <color name="colorShadow">#30303030</color>
+    <color name="colorItem">#fcc31e</color>
+    <color name="colorItemDark">#daa10c</color>
+    <color name="colorItemSelected">#985305</color>
+    <color name="colorExpense">#f76c41</color>
+    <color name="colorComment">#95989a</color>
+    <color name="colorInactive">#ddede8</color>
+    <color name="colorActive">@android:color/white</color>
+    <color name="colorIndicator">#ffff8d</color>
+    <color name="list_item_text">#ffffff</color>
+    <color name="tab_item_enabled">#ffffff</color>
+    <color name="tab_item_disabled">#dbece6</color>
+    <color name="tab_selection_under">#FFF9C4</color>
+    <color name="activity_auth_main_background">#95c9b8</color>
+    <color name="activity_auth_sign_in_button_text_color">#7dc9b0</color>
+</resources>
